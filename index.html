@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avadhoot Tavhare</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Avadhoot Tavhare</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Avadhoot Tavhare</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assests/pfp1.png" alt="Avadhoot Tavhare profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Avadhoot Tavhare</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assests/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assests/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/avadhoot-tavhare-292190209/'"
+          />
+          <img
+            src="./assests/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/AvadhootT'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assests/avadhoot.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests//experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ year <br /></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests//education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech Computer Sceince<br />from MIT Academy of Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a highly committed student looking for a challenging position to develop my technical abilities, 
+                training, and Machine learning, and contribute to the organization's growth. I'm eager to pick up any new talents that emerge.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Key Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DSA</h3>
+                  <p>C++</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Programming Language</h3>
+                  <p>C++, Python</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Object-Oriented-Programming</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web-Development</h3>
+                  <p>Flask-Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git (GitHub)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Key Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SDLC</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests//checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Selenium</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests//Result management.jpg"
+                alt="Result Management System for College COE Department"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Result Management System for College COE Department</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://mitaoe-coe-department.000webhostapp.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests//fakenews.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Fake News Detection Using Ensemble Approach</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests//roadsafety.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Road Safety Project: Power BI Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AvadhootT/Road-Accident-Analysis---Power-BI-Project'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://app.powerbi.com/groups/me/reports/318754c2-880f-4001-b313-7d0ca22c8482/ReportSection?bookmarkGuid=9d7fd39e-e332-46d9-be14-51383f0ed98e&bookmarkUsage=1&ctid=7e394fc8-4b86-4cfe-810e-43f86f8bec47&portalSessionId=2fa9b263-2f62-4471-b4e2-058aec1948b1&fromEntryPoint=export'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests//arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+      <section id="publications">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Publications</h1>
+        <!-- <div class="publications-container outlined-container"> -->
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+          <!-- Publication 1 -->
+          <div class="publication-details-container">
+            <h2 class="publication-title">Fake News Detection Using Ensemble Approach</h2>
+            <p class="publication-authors">Authors: Avadhoot Tavhare, Siddhant Choudhary, Kunal Borle, Sunita Barve, Diptee Chikmurghe</p>
+            <p class="publication-conference">Conference/Journal: 2023 IEEE Fifth International Conference on Advances in Electronics, Computers, and Communications(ICAECC)</p>
+            <p class="publication-date">Publication Date: 08Sep, 2023</p>
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://ieeexplore.ieee.org/browse/conferences/title'"
+          >
+            Publication
+          </button>
+            <!-- <p class="publication-link"><p><a href="https://ieeexplore.ieee.org/browse/conferences/title">Publication Link</a></p></p>
+            </div> -->
+          </div>
+          </div>
+          </div>
+        </div>
+      </section>      
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assests//email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">tavhareavadhoot@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assests//linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/avadhoot-tavhare-292190209/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Avadhoot Tavhare. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
